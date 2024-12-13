@@ -3,4 +3,11 @@ name = "website_checker"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "website_checker"
+path = "src/lib.rs"
+
 [dependencies]
+serde = "1"
+ureq = "2"
+chrono = "0.4"
